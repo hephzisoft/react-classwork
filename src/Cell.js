@@ -2,7 +2,9 @@ import React from 'react'
 
 const Cell = ({cellData}) => {
   return (
-    <td>{cellData}</td>
+      <td>
+        {cellData}
+      </td>
   )
 }
 
